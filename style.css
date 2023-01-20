@@ -1,0 +1,21 @@
+nav li a {
+    cursor: pointer;
+}
+.next-prev-icon{
+background-color: #eb7d7d91;
+border-radius: 50%;
+}
+#featured-section{
+    margin: 50px 0 100px 0;
+}
+.star{
+    display: flex;
+    justify-content: center;
+}
+.star img{
+    width: 20px;
+    margin: 2px;
+}
+#faq-section{
+    margin: 100px 50px;
+}

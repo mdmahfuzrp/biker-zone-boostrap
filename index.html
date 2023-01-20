@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap Css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Custom Stylesheet CSS File -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="container-lg">
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+              <a class="navbar-brand fw-semibold text-uppercase" href="#">Biker Zone</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4 fw-semibold">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Bikes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Content</a>
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-danger">Login</a>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Banner Slider -->
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active p-3 p-md-5 bg-danger bg-opacity-10">
+                <div class="row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-md-3">
+                    <div class="col">
+                        <h1 class="fw-bold display-3">Ride-on R15 V4 with Smile</h1>
+                        <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        <button type="button" class="btn btn-danger p-3 px-5 fs-5">Purchase</button>
+                    </div>
+                    <div class="col">
+                        <img src="images/bike-6.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item p-3 p-md-5 bg-danger bg-opacity-10">
+                <div class="row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-md-3">
+                    <div class="col">
+                        <h1 class="fw-bold display-3">Ride-on R15 V4 with Smile</h1>
+                        <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        <button type="button" class="btn btn-danger p-3 px-5 fs-5">Purchase</button>
+                    </div>
+                    <div class="col">
+                        <img src="images/bike-8.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item p-3 p-md-5 bg-danger bg-opacity-10">
+                <div class="row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-md-3">
+                    <div class="col">
+                        <h1 class="fw-bold display-3">Ride-on R15 V4 with Smile</h1>
+                        <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        <button type="button" class="btn btn-danger p-3 px-5 fs-5">Purchase</button>
+                    </div>
+                    <div class="col">
+                        <img src="images/bike-7.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon next-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon next-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+    <main>
+      <!-- featured-bikes -->
+      <section class="container mx-auto" id="featured-section">
+        <h1 class="text-center fw-bold">Fetured Bikes In This Year</h1>
+        <p class="text-center fw-semibold text-danger border-bottom border-danger mx-auto pb-1 mb-5" style="width: fit-content;">Best bike collection</p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+          <div class="col"><img src="images/feature-bike.jpg" class="w-100" alt="" style="filter: grayscale(100);"></div>
+          <div class="col"><img src="images/feature-bike.jpg" class="w-100" alt=""></div>
+          <div class="col"><img src="images/feature-bike.jpg" class="w-100" alt="" style="filter: grayscale(100);"></div>
+        </div>
+      </section>
+
+      <!-- latest bike -->
+      <section class="container my-5">
+        <h1 class="text-center fw-bold">Latest News</h1>
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-4">
+          <div class="col">
+            <div class="card border border-2 p-3">
+              <img src="images/bike-1.png" class="card-img-top" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title fs-4 fw-bold my-3">Ducati XDIAVEL S-73</h5>
+                <p class="card-text text-secondary-emphasis mb-4" style="letter-spacing:.3px; font-size: 17px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <button type="button" class="btn btn-outline-danger active border border-1 border-danger py-2 px-4">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-2 p-3">
+              <img src="images/bike-2.png" class="card-img-top" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title fs-4 fw-bold my-3">Motorcycles & Scooters</h5>
+                <p class="card-text text-secondary-emphasis mb-4" style="letter-spacing:.3px; font-size: 17px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <button type="button" class="btn btn-outline-danger border border-1 border-danger py-2 px-4">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-2 p-3">
+              <img src="images/bike-3.png" class="card-img-top" alt="...">
+              <div class="card-body px-0 px-0">
+                <h5 class="card-title fs-4 fw-bold my-3">2021 Honda CBR500R</h5>
+                <p class="card-text text-secondary-emphasis mb-4" style="letter-spacing:.3px; font-size: 17px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <button type="button" class="btn btn-outline-danger border border-1 border-danger py-2 px-4">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Client Section -->
+      <section>
+        <h1 class="text-center fw-bold">Latest News</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-4">
+          <div class="col">
+            <div class="card border border-2 p-3 pt-5 pb-4">
+              
+              <img src="images/user-1.png" class=" card-img-top w-50 mx-auto" alt="">
+              <div class="card-body px-0 justify-content-center">
+                <p class="card-text text-secondary-emphasis mb-2 text-center pt-2" style="letter-spacing:.3px; font-size: 17px;">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                <div class="star">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-regular.svg" alt="">
+                </div>
+                <h4 class="text-center text-info fs-6 mb-1 mt-2">Regina Miles</h4>
+                <h5 class="text-center fs-6">Banker</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-2 p-3 pt-5 pb-4">
+              
+              <img src="images/user-2.png" class=" card-img-top w-50 mx-auto" alt="">
+              <div class="card-body px-0 justify-content-center">
+                <p class="card-text text-secondary-emphasis mb-2 text-center pt-2" style="letter-spacing:.3px; font-size: 17px;">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                <div class="star">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-regular.svg" alt="">
+                </div>
+                <h4 class="text-center text-info fs-6 mb-1 mt-2">Devid John</h4>
+                <h5 class="text-center fs-6">Programmer</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-2 p-3 pt-5 pb-4">
+              <img src="images/user-3.png" class=" card-img-top w-50 mx-auto" alt="">
+              <div class="card-body px-0 px-0 justify-content-center">
+                <p class="card-text text-secondary-emphasis mb-2 text-center pt-2" style="letter-spacing:.3px; font-size: 17px;">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                <div class="star">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-solid.svg" alt="">
+                  <img src="images/icons/star-regular.svg" alt="">
+                </div>
+                <h4 class="text-center text-info fs-6 mb-1 mt-2">Nikoles Jio</h4>
+                <h5 class="text-center fs-6">Doctor</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FaQ section -->
+      <section id="faq-section" class="container">
+        <h1 class="text-center fw-bold mb-4">Frequently Asked Questions</h1>
+        <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center g-5">
+          <div class="col">
+            <img src="images/faq.png" class="w-100" alt="">
+          </div>
+          <div class="col"><div class="accordion" id="accordionExample">
+            <div class="accordion-item m-2 border">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What are the most important things I should know about riding a bike?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show fs-6 fw-semibold text-secondary" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2 border">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How can I tell if my helmet is old and I need a new one?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body fs-6 fw-semibold text-secondary">
+                  Most helmets have a production date listed inside on a sticker, making it easy to identify exactly how old your helmet is. If the sticker is worn off or can't be found, then it is probably safe to assume it is time to replace it.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2 border">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  My bike has been in storage is it safe to ride?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body fs-6 fw-semibold text-secondary">
+                  Its entirely possible the bike is good and safe to ride with a bit of air in the tires and shocks/forks - this would heavily depend on the climate in the garage it was stored in and condition it was in before being hung up.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-2 border">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  What rules should I follow when riding my bike?
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body fs-6 fw-semibold text-secondary">
+                  Ride single-file in the direction of traffic. Remain alert, keep your head up and look around; watch for opening car doors and other hazards. Use hand signals when turning and use extra care at intersections. Never hitch onto cars. Before entering traffic, stop and look left, right, left again and over your shoulder.
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+
+    <!-- Bootstrap JS file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
