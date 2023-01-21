@@ -10,9 +10,9 @@
     <!-- Custom Stylesheet CSS File -->
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="container-lg">
+  <body>
 
-    <header>
+    <header class="container-lg px-0">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg py-3">
             <div class="container">
@@ -91,7 +91,7 @@
           </div>
     </header>
 
-    <main>
+    <main class="container-lg">
       <!-- featured-bikes -->
       <section class="container mx-auto" id="featured-section">
         <h1 class="text-center fw-bold">Fetured Bikes In This Year</h1>
@@ -105,7 +105,7 @@
       </section>
 
       <!-- latest bike -->
-      <section class="container my-5">
+      <section class="container px-0 my-5">
         <h1 class="text-center fw-bold">Latest News</h1>
         
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-4">
@@ -206,11 +206,11 @@
       <section id="faq-section" class="container">
         <h1 class="text-center fw-bold mb-4">Frequently Asked Questions</h1>
         <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center g-5">
-          <div class="col">
-            <img src="images/faq.png" class="w-100" alt="">
+          <div class="col d-flex justify-content-center">
+            <img src="images/faq.png" class="w-75" alt="">
           </div>
           <div class="col"><div class="accordion" id="accordionExample">
-            <div class="accordion-item m-2 border">
+            <div class="accordion-item my-2 border">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   What are the most important things I should know about riding a bike?
@@ -222,7 +222,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item m-2 border">
+            <div class="accordion-item my-2 border">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   How can I tell if my helmet is old and I need a new one?
@@ -234,7 +234,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item m-2 border">
+            <div class="accordion-item my-2 border">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   My bike has been in storage is it safe to ride?
@@ -246,7 +246,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item m-2 border">
+            <div class="accordion-item my-2 border">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed fs-5 fw-semibold text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
                   What rules should I follow when riding my bike?
@@ -264,8 +264,34 @@
       </section>
     </main>
 
-    <footer>
-
+    <footer class="container-fluid bg-black text-white px-0">
+      <div class="container-lg m-auto row row-cols-1 row-cols-md-2 py-5" id="footer-section">
+        <div class="col">
+          <ul class="ps-0" id="footer-ul">
+            <li>
+              <a href="#">Download Now</a>
+              <a class="" href="#">License</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
+              <a href="#">Careers</a>
+              <a href="#">Help</a>
+              <a class="" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <br>
+          <p>&copy; 2023 BikerZone. All right riserved</p>
+        </div>
+        <div class="col">
+          <h5>Get the App</h5>
+          <div class="download-app">
+          <img src="images/ios.png" alt="">
+          <img src="images/android.png" alt="">
+          </div>
+        </div>
+      </div>
     </footer>
     
 
